@@ -1,0 +1,305 @@
+{
+    "title": "マイルール",
+    "rules": [
+        {
+            "description": "hを左矢印に変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "h"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "left_arrow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "jを下矢印に変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "j"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "down_arrow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "kを上矢印に変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "k"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "up_arrow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "lを右矢印に変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "l"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "right_arrow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "yをHomeに変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "y"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "home"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "uをPageDownに変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "u"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "page_down"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "iをPageUpに変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "i"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "page_up"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "oをEndに変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "o"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "end"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "nをbackspaceに変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "n"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "delete_or_backspace"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "mをdeleteに変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "m"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "delete_forward"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": ",をescapeに変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "comma"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "escape"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "spaceをenterに変更",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "right_option"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        },
+                        "key_code": "spacebar"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "return_or_enter"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

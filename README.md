@@ -1,0 +1,1 @@
+~/.config/karabiner/assets/配下にmy_rule.jsonを配置する
